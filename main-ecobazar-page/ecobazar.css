@@ -1,0 +1,1081 @@
+/* || General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+.box-width {
+    width: 1320px;
+}
+
+.flex__colamn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex__row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Typography */
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+
+/* header */
+
+
+.header__div {
+    gap: 24px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__box {
+    gap: 24px;
+    align-items: center;
+}
+
+.header__start {
+    align-items: center;
+    justify-content: space-between;
+    color: #666666;
+}
+
+.header__start__location {
+    gap: 8px;
+}
+
+.header__start__grey {
+    gap: 20px;
+}
+
+
+.header__middle {
+    justify-content: space-between;
+}
+
+.header__middle__form {
+    gap: 0px;
+    width: 480px;
+}
+
+.header__middle__input {
+    padding: 12px 16px;
+    border: 1px dashed #808080;
+    width: 400px;
+}
+
+.header__middle__input + input {
+    padding: 14px 24px;
+    color: #fff;
+    background-color: #00B207;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 0px;
+}
+
+.header__middle__booking {
+    gap: 16px;
+    height: 50px;
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+.cart__span {
+    font-size: 11px;
+    color: #4D4D4D;
+}
+
+
+.booking__bag {
+    gap: 12px;
+}
+
+.booking__bag__spans {
+    gap: 7px;
+}
+
+.list__for__nav {
+    list-style-type: none;
+    padding-left: 0;
+    color: #666666;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ul__home {
+    color: #00B207;
+}
+
+.header__end__tel {
+    gap: 8px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header__end {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #333333;
+    align-items: center;
+}
+
+.header__end > div {
+    width: 1320px;
+    justify-content: space-between;
+}
+
+
+
+/* main */
+
+
+/* article */
+
+
+.main__start-contaienr {
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-box {
+    gap: 24px;
+    height: 700px;
+}
+
+.food__box {
+    gap: 24px;
+}
+
+.main__food__box {
+    gap: 24px;
+}
+
+.first__food__box {
+    height: 600px;
+    width: 872px;
+    background-image: url("ecobazar-image/start-big-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.summer__box {
+    height: 288px;
+    width: 423px;
+    background-image: url("ecobazar-image/summer-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 32px 32px 32px;
+}
+
+.summer__text {
+    width: 156px;
+    height: 136px;
+    gap: 24px;
+}
+
+.summer__text__h3 {
+    gap: 10px;
+}
+
+.summer__text__h3 P {
+    font-weight: 500;
+}
+
+.summer__text__h3 h3 + p {
+    color: #666666;
+}
+
+.summer__text__span {
+    gap: 12px;
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.deal__box {
+    height: 288px;
+    width: 423px;
+    background-image: url("ecobazar-image/deal-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal__box > div {
+    width: 343px;
+    height: 153px;
+    align-items: center;
+    gap: 32px;
+}
+
+.deal__box__h3 {
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.deal__box__h3 h3 {
+    width: 300px;
+}
+
+.main__service__container {
+    height: 128px;
+    padding: 40px;
+    box-shadow: 0px 8px 40px 0px #00260314;
+}
+
+.service__box {
+    width: 306px;
+    gap: 16px;
+}
+
+.service__box > div {
+    gap: 8px;
+}
+
+.service__box span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service__box p {
+    color: #999999;
+}
+
+
+
+
+.categories__container {
+    height: 550px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.categories__container > div {
+    height: 490px;
+    gap: 30px;
+}
+
+.categories__text {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories__text > div {
+    gap: 12px;
+    color: #00B207;
+}
+
+.categories__img {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.categories__img a {
+    all: unset;
+}
+
+.categories__img > div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 210px;
+    padding: 16px 0 24px 0;
+    border-radius: 5px;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    gap: 16px;
+}
+
+.categories__img > div {
+    text-align: center;
+}
+
+.categories__img .categories__img__green {
+    border: 1px solid  #2C742F;
+    box-shadow: 0px 0px 12px 0px #20b52652;
+}
+
+
+
+.product__container {
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__container > div {
+    height: 720px;
+    gap: 30px;
+}
+
+.product__img {
+    flex-wrap: wrap;
+}
+
+.product__img > div {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 327px;
+    padding: 12px;
+    justify-content: flex-end;
+    gap: 6px;
+    border: 1px solid #E6E6E6;
+}
+
+.product__img .product__img__sale {
+    justify-content: space-between;
+    background-image: url("ecobazar-image/green-apple.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .indian__malta  {
+    background-image: url("ecobazar-image/orange.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .product__img__sale > span {
+    padding: 3px 8px;
+    background-color: #EA4B48;
+    color: #fff;
+    width: 80px;
+    border-radius: 4px;
+}
+
+.product__img > div img {
+    width: 60px;
+}
+
+.product__img > div p {
+    color: #4D4D4D;
+}
+
+.product__img > div span {
+    font-size: 16px;
+}
+
+.product__img > div span span {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.product__img .product__img__Sale {
+    justify-content: space-between;
+    background-image: url("ecobazar-image/capsicum-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .product__img__Sale > span {
+    padding: 3px 8px;
+    background-color: #EA4B48;
+    color: #fff;
+    width: 80px;
+    border-radius: 4px;
+}
+
+.product__img .product__img__green {
+    box-shadow: 0px 0px 12px 0px #20b52652;
+    border: 1px solid #2C742F;
+    background-image: url("ecobazar-image/addtowishlist.png"), 
+    url("ecobazar-image/quickview.png"),
+    url("ecobazar-image/chinese-img.png"),
+    url("ecobazar-image/add-to-cart-green.png");
+    background-repeat: no-repeat;
+    background-position: top 11px right 11px, top 62px right 11px, top center, bottom 20px right 15px ;
+}
+
+.product__img .product__img__green p {
+    color: #2C742F;
+}
+
+.product__img .green__lettuce{
+    background-image: url("ecobazar-image/lettuce-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .eggplant__box {
+    background-image: url("ecobazar-image/eggplant-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .big__potatoes {
+    background-image: url("ecobazar-image/potatoes-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .corn__box {
+    background-image: url("ecobazar-image/corn-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+.product__img .cauliflower {
+    background-image: url("ecobazar-image/cauliflower-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .green__chili {
+    background-image: url("ecobazar-image/chili-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+
+
+
+
+.special__container {
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.special__boxes {
+    gap: 24px;
+}
+
+.special__box {
+    width: 424px;
+    height: 536px;
+    border-radius: 8px;
+    padding: 35px;
+    align-items: center;
+    color: #fff;
+    gap: 8px;
+}
+
+.stopwatch__box {
+    background-image: url("ecobazar-image/stopwatch-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.special__box  > p {
+    padding-bottom: 8px;
+}
+
+.stopwatch__div {
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.stopwatch__div div {
+    align-items: center;
+    gap: 5px;
+}
+
+.stopwatch__div span {
+    font-size: 24px;
+}
+
+.stopwatch__div div p {
+    font-size: 12px;
+}
+
+.shop__div {
+    gap: 12px;
+    padding: 14px 32px;
+    background-color: #fff;
+    color: #00B207;
+    font-weight: 600;
+    border-radius: 43px;
+    margin-top: 16px;
+}
+
+
+.middle__offer {
+    background-image: url("ecobazar-image/middle-offer-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle__offer > span {
+    font-size: 18px;
+    gap: 5px;
+}
+
+.middle__offer > span > span {
+    font-size: 20px;
+    color: #FF8A00;
+    font-weight: 600;
+}
+
+.last__offer {
+    background-image: url("ecobazar-image/last-offer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1A1A1A;
+}
+
+.last__offer > span {
+    font-size: 18px;
+    gap: 5px;
+}
+
+.last__offer > span > span {
+    background-color: #1A1A1A;
+    color: #FCC900;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+
+
+.hot__deal__container {
+    height: 1170px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.hot__deal__div {
+    height: 1050px;
+    gap: 32px;
+}
+
+.hot__deal__box {
+    background-color: #fff;
+}
+.apple__box {
+    width: 528px;
+    height: 654px;
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    padding: 24px;
+    justify-content: space-between;
+    background-image: url("ecobazar-image/apple-img.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.sale__span {
+    gap: 8px;
+}
+
+.sale__span > span {
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.orange__span {
+    background-color: #EA4B48;
+}
+
+.orange__span + span {
+    background-color: #2388FF;
+}
+
+.apple__box__text {
+    gap: 24px;
+    align-items: center;
+}
+
+.add__to__cart {
+    gap: 8px;
+    align-items: center;
+}
+
+.add__to__cart > div  {
+    width: 380px;
+    padding: 14px 32px;
+    background-color: #00B207;
+    border-radius: 43px;
+    color: #fff;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+}
+
+.apple__box__cost {
+    gap: 8px;
+    padding-top: 6px;
+    align-items: center;
+}
+
+.apple__box__cost p {
+    color: #2C742F;
+    font-size: 18px;
+}
+
+.apple__box__cost > span {
+    color: #1A1A1A;
+    font-size: 24px;
+    gap: 4px;
+}
+
+.apple__box__cost > span > span {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.apple__box__stopwatch {
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.apple__box__stopwatch > div {
+    color: #1A1A1A;
+    font-size: 18px;
+    align-items: center;
+}
+
+.apple__box__stopwatch > span {
+    color: #808080;
+    font-size: 20px;
+}
+
+.apple__box__stopwatch > div > p {
+    color: #999999;
+    font-size: 10px;
+}
+
+.product__img .product__img__SALE {
+    justify-content: space-between;
+    background-image: url("ecobazar-image/red-tomato.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .product__img__SALE > span {
+    padding: 3px 8px;
+    background-color: #EA4B48;
+    color: #fff;
+    width: 80px;
+    border-radius: 4px;
+}
+
+.product__img .red__chili {
+    background-image: url("ecobazar-image/red-chili.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px;
+}
+
+.product__img .mango__box {
+    background-image: url("ecobazar-image/mango-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px; 
+}
+
+.hot__deal__startBox > .product__img > div {
+    background-color: #fff;
+}
+
+.hot__deal__startBox + .product__img > div {
+    background-color: #fff;
+}
+
+.hot__deal__startBox > .product__img > .product__img__green {
+    border: 1px solid #E6E6E6;
+    background-image: url("ecobazar-image/chinese-img.png"),
+    url("ecobazar-image/add-to-cart.png");
+    background-repeat: no-repeat;
+    background-position: top, bottom 20px right 15px; 
+}
+
+
+
+
+.banner-container {
+    height: 480px;
+    background-image: url("ecobazar-image/banner-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.product__container .featured__products__div {
+    height: 400px;
+}
+
+.featured__products__div {
+    height: 400px;
+}
+
+
+
+
+.latest__news__container {
+    height: 684px;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest__news__div {
+    height: 564px;
+    align-items: center;
+    gap: 32px;
+}
+
+.latest__news__boxes {
+    gap: 24px;
+    align-items: center;
+}
+
+.latest__news__box {
+    width: 424px;
+    height: 494px;
+    padding: 24px;
+    justify-content: flex-end;
+    gap: 48px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.latest__news__box > span {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15px;
+    align-items: center;
+    font-size: 20px;
+    width: 58px;
+    color: #1A1A1A;
+    border-radius: 4px;
+    gap: 5px;
+    background-color: #FFFFFFD9;
+}
+
+.latest__news__box > span > span {
+    color: #808080;
+    font-size: 12px;
+}
+
+.latest__news__box > div {
+    gap: 20px;
+}
+
+.news__box__firstDiv {
+    gap: 8px;
+}
+
+.news__box__firstDiv > div {
+    gap: 16px;
+}
+
+.news__box__firstDiv > p {
+    width: 340px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.news__box__firstDiv + div {
+    color: #00B207;
+    gap: 12px;
+    align-items: center;
+}
+
+.nov__box .news__box__firstDiv p {
+    color: #2C742F;
+}
+
+.nov__box {
+    background-image: url("ecobazar-image/oranges-img.png");
+}
+
+.jan__box {
+    background-image: url("ecobazar-image/jan-img.png");
+}
+
+.feb__box {
+    background-image: url("ecobazar-image/feb-img.png");
+}
+
+
+
+
+.feedback__container {
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #F2F2F2;
+}
+
+.feedback__container > div {
+    height: 330px;
+    gap: 32px;
+}
+
+.feedback__h3 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback__boxes {
+    gap: 24px;
+}
+
+.feedback__box {
+    padding: 24px;
+    gap: 16px;
+    width: 424px;
+    height: 254px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.feedback__box > img {
+    width: 32px;
+}
+
+.feedback__box > p {
+    color: #4D4D4D;
+    width: 330px;
+}
+
+.feedback__box > div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback__box > div > div {
+    align-items: center;
+    gap: 12px;
+}
+
+.feedback__box > div > div > span {
+    color: #1A1A1A;
+    font-size: 18px;
+}
+
+.feedback__box > div > div > span > span {
+    font-size: 14px;
+    color: #999999;
+}
+
+
+
+
+.companys__container {
+    justify-content: center;
+    align-items: center;
+    height: 152px;
+}
+
+.companys__box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.instagram__photos__container {
+    justify-content: center;
+    height: 330px;
+    align-items: flex-start;
+}
+
+.instagram__photos__container > div {
+    gap: 32px;
+    align-items: center;
+}
+
+.instagram__photos__container > div > div {
+    gap: 24px;
+}
+
+
+
+
+
+.subscribe__container {
+    justify-content: center;
+    align-items: center;
+    height: 162px;
+    background-color: #F7F7F7;
+}
+
+.subscribe__container > div {
+    height: 82px;
+    justify-content: space-between;
+}
+
+.social__text {
+    width: 400px;
+    gap: 5px;
+    color: #1A1A1A;
+}
+
+.social__text > p {
+    color: #999999;
+}
+
+.socials__box {
+    gap: 40px;
+    align-items: center;
+}
+
+.social__input__text {
+    padding: 14px 24px;
+    border-radius: 46px;
+    width: 492px;
+    border: 1px solid #E6E6E6;
+}
+
+.social__input__text + input {
+    padding: 13px 40px;
+    border-radius: 43px;
+    background-color: #00B207;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    right: 500px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.socials__box > div {
+    gap: 8px;
+}
+
+
+
+
+
+/* footer */
+
+.main__footer__container {
+    height: 368px;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #1A1A1A;
+}
+
+.main__footer__container > div {
+    height: 308px;
+    gap: 60px;
+}
+.end__logo__box {
+    gap: 16px;
+    width: 336px;
+    color: #808080;
+}
+
+.end__logo__box > div {
+    gap: 16px;
+}
+
+.end__logo__box > p {
+    width: 310px;
+}
+
+.end__logo__box > div > p {
+    color: #fff;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
+}
+
+.end__logo__box > img {
+    width: 183px;
+}
+
+.footer__text {
+    gap: 120px;
+    align-items: center;
+}
+
+.main__footer__text {
+    gap: 110px;
+    align-items: center;
+}
+
+.footer__text > div {
+    width: 120px;
+    gap: 20px;
+}
+
+.footer__text > div > span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer__text > div > div {
+    color: #999999;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.shopping__cart__span {
+    color: #FFFFFF;
+}
+
+.last__div hr {
+    border: 1px solid #d4d4d4;
+}
+
+.last__div > div {
+    color: #808080;
+    justify-content: space-between;
+}
+
+.last__div > div > div {
+    gap: 8px;
+}
+
+.last__div {
+    gap: 24px;
+}

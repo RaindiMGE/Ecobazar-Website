@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="checkout-image/favicon-novatori-100x100.png" />
+        <link rel="stylesheet" href="checkout.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>CheckOut</title>
+    </head>
+    <body>
+        <header>
+            <div class="flex__row start__header__container">
+                <div class="flex__row box-width start__header__box">
+                    <div class="flex__row header__box__location">
+                        <img src="checkout-image/location-icon.svg" alt="location icon" />
+                        <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p> 
+                    </div>
+                    <div class="flex__row">
+                        <div>
+                            <span>Eng</span>
+                            <img src="checkout-image/bottom-arrow.svg" alt="or icon" />
+                        </div>
+                        <div>
+                            <span>USD</span>
+                            <img src="checkout-image/bottom-arrow.svg" alt="or icon" />
+                        </div>
+                        <span>|</span>
+                        <p>Sign In / Sign Up</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex__row middle__header__container">
+                <div class="flex__row box-width">
+                    <img src="checkout-image/header-logo.svg" alt="ecobazar logo" />
+                    <form class="flex__row middle__box__form">
+                        <label>
+                            <img src="checkout-image/search-icon.svg" alt="search icon" />
+                        </label>
+                        <input type="text" placeholder="Search" class="header__input__text"/>
+                        <input type="submit" value="Search" />
+                    </form>
+                    <div class="flex__row">
+                        <img src="checkout-image/heart-icon.svg" alt="heart icon" />
+                        <span>|</span>
+                        <div class="flex__row bag__with__two">
+                            <img src="checkout-image/bag-with-2.svg" alt="bag with 2" />
+                            <div class="flex__colamn">
+                                <span>Shopping cart:</span>
+                                <p>$57.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav__container flex__row">
+                <div class="box-width flex__row">
+                    <ul class="nav__bar flex__row">
+                        <li><a href="#">Home &or;</a></li>
+                        <li><a href="#">Shop &or;</a></li>
+                        <li><a href="#">Pages &or;</a></li>
+                        <li><a href="#">Blog &or;</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+    
+                    <div class="nav__tel flex__row">
+                        <img src="checkout-image/tel-icon.svg" alt="tel icon" />
+                        <span>(219) 555-0114</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="baner__container flex__row">
+                    <div class="flex__row box-width">
+                        <img src="checkout-image/home-icon.svg" alt="home icon" />
+                        <img src="checkout-image/right-arrow.svg" alt="right arrow" />
+                        <h6><a href="#">Shopping Cart</a></h6>
+                        <img src="checkout-image/right-arrow.svg" alt="right arrow" />
+                        <h6><a href="#" class="baner__a">Checkout</a></h6>
+                    </div>
+                </div>
+            </section>
+
+            <article>
+                <div class="flex__row main-billing__container">
+                    <div class="box-width billing__container flex__row">
+                        <div class="flex__colamn billing__left-boxes">
+                            <div class="flex__colamn billing__left-boxes--start-box">
+                                <h4>Billing Information</h4>
+                                <form class="flex__colamn billing__start-box--form">
+                                    <div class="flex__row start-box__box--gap-16">
+                                        <div class="flex__colamn gap-8__box">
+                                            <label>First name</label>
+                                            <input type="text" placeholder="Your first name" class="box-border start-box__costumer-information"/>
+                                        </div>
+                                        <div class="flex__colamn gap-8__box">
+                                            <label>Last name</label>
+                                            <input type="text" placeholder="Your last name" class="box-border start-box__costumer-information"/>
+                                        </div>
+                                        <div class="flex__colamn gap-8__box">
+                                            <label>Company Name <span class="optional__span">(optional)</span></label>
+                                            <input type="text" placeholder="Company name" class="box-border start-box__costumer-information"/>
+                                        </div>
+                                    </div>
+                                    <div class="flex__colamn gap-8__box">
+                                        <label>Street Address</label>
+                                        <input type="email" placeholder="Email" required class="box-border"/>
+                                    </div>
+                                    <div class="flex__row start-box__housing-information">
+                                        <div class="start-box__box--gap-16 flex__row">
+                                            <div class="flex__colamn gap-8__box">
+                                                <label>Country / Region</label>
+                                                <div class="flex__row box-border start-box__costumer-information choose__box">
+                                                    <input type="text" placeholder="Select" />
+                                                    <button>
+                                                        <img src="checkout-image/bottom-arrow.svg" alt="bottom arrow" />
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="flex__colamn gap-8__box">
+                                                <label>States</label>
+                                                <div class="flex__row box-border start-box__costumer-information choose__box states__box">
+                                                    <input type="text" placeholder="Select" />
+                                                    <button>
+                                                        <img src="checkout-image/bottom-arrow.svg" alt="bottom arrow" />
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex__colamn gap-8__box start-box__zip-code">
+                                            <label>Zip Code</label>
+                                            <input type="number" placeholder="Zip Code" class="box-border"/>
+                                        </div>
+                                    </div>
+                                    <div class="flex__row start-box__box--gap-16">
+                                        <div class="flex__colamn gap-8__box start-box__contact-information">
+                                            <label>Email</label>
+                                            <input type="email" placeholder="Email Address" class="box-border"/>
+                                        </div>
+                                        <div class="flex__colamn gap-8__box start-box__contact-information">
+                                            <label>Phone</label>
+                                            <input type="email" placeholder="Phone number" class="box-border"/>
+                                        </div>
+                                    </div>
+                                    <div class="flex__row start-box__checkbox">
+                                        <input type="checkbox" id="checkbox" />
+                                        <label for="checkbox">Ship to a different address</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="billing__left-boxes--end-box flex__colamn">
+                                <h4>Additional Info</h4>
+                                <form class="flex__colamn gap-8__box">
+                                    <label>Order Notes (Optional)</label>
+                                    <textarea class="box-border" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="billing__right-box box-border flex__colamn">
+                            <div class="flex__colamn rigth-box__start-box">
+                                <h5>Order Summery</h5>
+                                <div class="flex__colamn">
+                                    <div class="flex__row rigth-box__product-information">
+                                        <div class="flex__row">
+                                            <img src="checkout-image/green-capsicum.png" alt="green capsicum" />
+                                            <p>Green Capsicum</p>
+                                            <span>x5</span>
+                                        </div>
+                                        <span>$70.00</span>
+                                    </div>
+                                    <div class="flex__row rigth-box__product-information">
+                                        <div class="flex__row">
+                                            <img src="checkout-image/red-capsicum.png" alt="red capsicum" />
+                                            <p>Red Capsicum</p>
+                                            <span>x1</span>
+                                        </div>
+                                        <span>$14.00</span>
+                                    </div>
+                                </div>
+                                <div class="flex__colamn">
+                                    <div class="flex__row right-box__price-info">
+                                        <p>Subtotal:</p>
+                                        <span>$84.00</span>
+                                    </div>
+                                    <div class="flex__row right-box__price-info">
+                                        <p>Shipping:</p>
+                                        <span>Free</span>
+                                    </div>
+                                    <div class="flex__row right-box__price-info right-box__total-price-info">
+                                        <p>Total:</p>
+                                        <span>$84.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex__colamn right-box__payment-method">
+                                <h5>Payment Method</h5>
+                                <form class="flex__colamn right-box__payment-method--form">
+                                    <div>
+                                        <input type="radio" id="cash-on-delivery" name="payment-method" />
+                                        <label for="cash-on-delivery">Cash on Delivery</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="paypal" name="payment-method" />
+                                        <label for="paypal">Paypal</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="amazon" name="payment-method" />
+                                        <label for="amazon">Amazon Pay</label>
+                                    </div>
+                                    <input type="submit" value="Place Order" class="right-box__payment-method--button"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <section>
+                <div class="flex__row end__section__container">
+                    <div class="flex__row box-width end__section__box">
+                        <div class="end__section__p flex__colamn">
+                            <h4>Subcribe our Newsletter</h4>
+                            <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+                        </div>
+                        <div class="flex__row">
+                            <form>
+                                <input type="text" placeholder="Your email address" class="end__section__input" />
+                                <input type="button" value="Subscribe" />
+                            </form>
+                            <div class="social__buttons flex__row">
+                                <button>
+                                    <img src="checkout-image/facebook-icon.svg" alt="facebook" />
+                                </button>
+                                <button>
+                                    <img src="checkout-image/twetter-icon.svg" alt="twiter" />
+                                </button>
+                                <button>
+                                    <img src="checkout-image/pinterest-icon.svg" alt="pinterest" />
+                                </button>
+                                <button>
+                                    <img src="checkout-image/insagram-icon.svg" alt="instagram" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex__row main__footer__container">
+                <div class="flex__colamn box-width">
+                    <div class="footer__logo__container flex__row">
+                        <div class="flex__colamn footer__logo">
+                            <img src="checkout-image/footer-logo.svg" alt="footer logo" />
+                            <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+                            <div class="flex__row">
+                                <p>(219) 555-0114</p>
+                                <span>or</span>
+                                <p>Proxy@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex__row footer__logo__text">
+                            <div class="flex__colamn">
+                                <h6>My Account</h6>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Order History</a></li>
+                                    <li><a href="#">Shoping Cart</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex__colamn">
+                                <h6>Helps</h6>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Faqs</a></li>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex__colamn">
+                                <h6>Proxy</h6>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Track Order</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="flex__colamn">
+                                <h6>Categories</h6>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">Fruit & Vegetables</a></li>
+                                    <li><a href="#">Meat & Fish</a></li>
+                                    <li><a href="#">Bread & Bakery</a></li>
+                                    <li><a href="#">Beauty & Health</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex__row copyright__box">
+                        <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                        <div class="flex__row">
+                            <img src="checkout-image/pay-icon.svg" alt="pay cart" />
+                            <img src="checkout-image/visa-icon.svg" alt="visa cart" />
+                            <img src="checkout-image/discover-icon.svg" alt="discover cart" />
+                            <img src="checkout-image/discover-icon.svg" alt="mastercard cart" />
+                            <img src="checkout-image/secure-icon.svg" alt="secure-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

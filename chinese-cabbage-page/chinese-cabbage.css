@@ -1,0 +1,756 @@
+/* || General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box-width {
+    width: 1320px;
+}
+
+.flex__colamn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex__row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Typography */
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1A1A1A;
+}
+
+
+/* || header */
+
+.start__header__container {
+    background-color: #333333;
+    color: #B3B3B3;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+
+.start__header__box {
+    justify-content: space-between;
+}
+
+.header__box__location {
+    gap: 8px;
+}
+
+.header__box__location + div {
+    gap: 20px;
+}
+
+.middle__header__container {
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+}
+
+.middle__header__container > div {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle__box__form > label {
+    position: relative;
+    left: 38px;
+}
+
+.header__input__text {
+    padding: 13px 18px 13px 46px;
+    border: 1px solid #cac4c4;
+    border-radius: 4px 0 0 4px;
+    width: 400px;
+}
+
+.middle__box__form {
+    align-items: center;
+}
+
+.header__input__text + input {
+    padding: 14px 24px;
+    background-color: #00B207;
+    color: #fff;
+    border-radius: 0px 6px 6px 0px;
+    border: 0;
+}
+
+.middle__box__form + div {
+    color: #cccccc;
+    align-items: center;
+    gap: 16px;
+}
+
+.bag__with__two {
+    gap: 12px;
+    align-items: center;
+    color: #1A1A1A;
+}
+
+.bag__with__two > div > span {
+    color: #4D4D4D;
+    font-size: 11px;
+}
+
+
+
+
+.nav__container {
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+
+.nav__bar {
+    gap: 32px;
+    list-style: none;
+    color: #666666;
+}
+
+.nav__bar a {
+    color: #666666;
+    text-decoration: unset;
+}
+
+.nav__bar a:focus, .nav__bar a:hover {
+    color: #00B207;
+}
+
+.nav__container div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__tel {
+    align-items: center;
+    gap: 8px;
+    color: #1A1A1A;
+    font-weight: 500;
+}
+
+
+
+/* || main */
+
+.baner__container {
+    justify-content: center;
+    height: 120px;
+    background-image: url("chinese-cabbage-image/hiro-baner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.baner__container > div {
+    gap: 11px;
+    font-size: 16px;
+    color: #999;
+}
+
+.baner__container a {
+    all: unset;
+}
+
+.baner__container .baner__a {
+    color: #00B207;
+}
+
+
+
+/* || article */
+
+
+.hiro__box {
+    gap: 24px;
+}
+
+.hiro__container {
+    justify-content: center;
+    margin-top: 32px;
+}
+.hiro__img--buttons {
+    align-items: center;
+    gap: 56px;
+}
+
+.hiro__img--buttons > img {
+    width: 24px;
+}
+
+.hiro__img--buttons div img {
+    width: 80px;
+    height: 90px;
+}
+
+.hiro__img--buttons div {
+    gap: 12px;
+}
+
+.hiro__img--buttons button {
+    border: 0;
+    background-color: #fff;
+}
+
+.hiro__img--buttons button:focus {
+    border: 2px solid #00B207;
+    border-radius: 4px;
+}
+
+.cabbage__images--box {
+    gap: 12px;
+}
+
+
+.about__border--bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+
+.about__cabbage--container {
+    gap: 24px;
+    width: 100%;
+}
+
+.review__container {
+    gap: 20px;
+}
+
+.review__h2 {
+    font-size: 36px;
+    color: #1A1A1A;
+    align-items: center;
+    gap: 8px;
+}
+
+.review__h2 span {
+    background-color: #20B52633;
+    font-size: 14px;
+    color: #2C742F;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.review__box {
+    gap: 20px;
+}
+
+.review__star--box {
+    gap: 12px;
+    color: #666666;
+    align-items: center;
+}
+
+.review__p {
+    color: #333333;
+    font-weight: 500;
+}
+
+.review__p span {
+    color: #666666;
+}
+
+.price__box {
+    gap: 12px;
+    font-weight: 500;
+}
+
+.price__box > div {
+    gap: 4px;
+}
+
+.price__box--span {
+    color: #B3B3B3;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.price__box--span + span {
+    color: #2C742F;
+    font-size: 24px;
+}
+
+.price__box > span {
+    background-color: #EA4B481A;
+    color: #EA4B48;
+    border-radius: 30px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+
+.brand__container {
+    gap: 16px;
+}
+
+.brand__container > div {
+    justify-content: space-between;
+    color: #1A1A1A;
+}
+
+.brand__logo {
+    gap: 8px;
+}
+
+.brand__socils {
+    gap: 10px;
+}
+
+.brand__socils {
+    gap: 5px;
+}
+
+.brand__container > p {
+    width: 568px;
+    color: #808080;
+}
+
+
+.how-many__container {
+    align-items: center;
+    gap: 12px;
+    padding: 18px 0;
+}
+
+.how-many__choose {
+    border: 1px solid #E6E6E6;
+    padding: 8px;
+    border-radius: 170px;
+    width: 108px;
+}
+
+.how-many__choose button {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    border: 0;
+}
+
+.how-many__choose span {
+    padding: 4px 10px;
+}
+
+.how-many__add-to-cart {
+    width: 447px;
+    padding: 16px 40px;
+    border-radius: 43px;
+    background-color: #00B207;
+    gap: 16px;
+    justify-content: center;
+    color: #fff;
+    border: 0;
+}
+
+.how-many__favorite {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 43px;
+    border: 0;
+}
+
+.how-many__favorite:hover, .how-many__favorite:focus {
+    background-color: #20B5261A;
+}
+
+.tag__container {
+    gap: 12px;
+    font-size: 14px;
+}
+
+.tag__container p {
+    color: #1A1A1A;
+    font-weight: 500;
+}
+
+.tag__container div, .tag__container ul {
+    gap: 6px;
+}
+
+.tag__container ul, .tag__container span {
+    color: #808080;
+}
+
+.chinese__li {
+    color: #1A1A1A;
+    text-decoration: underline;
+}
+
+.tag__container ul {
+    list-style: none;
+}
+
+.blog__container {
+    gap: 32px;
+    align-items: center;
+}
+
+.blog__heading {
+    border-bottom: 1px solid #E5E5E5;
+    justify-content: center;
+}
+
+.blog__heading a {
+    all: unset;
+    color: #808080;
+}
+
+.blog__heading h6 {
+    padding: 16px;
+}
+
+.blog__description {
+    border-bottom: 3px solid #20B526;
+}
+
+.blog__description a {
+    color: #1A1A1A;
+}
+
+.blog__contnent {
+    gap: 136px;
+}
+
+.blog__text {
+    gap: 20px;
+    width: 648px;
+    color: #808080;
+}
+
+.blog__text ul {
+    padding-left: 28px;
+    justify-content: center;
+    gap: 14px;
+    list-style: url("chinese-cabbage-image/green-check.svg");
+}
+
+.blog__text li {
+    padding-left: 4px;
+}
+
+.blog__big-p {
+    width: 648px;
+    white-space: pre-line;
+}
+
+.blog__video {
+    gap: 20px;
+}
+
+.blog__video--text {
+    padding: 24px 20px;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    color: #1A1A1A;
+    font-weight: 500px;
+}
+
+.blog__video--text > div {
+    gap: 12px;
+}
+
+.blog__video--description {
+    gap: 6px;
+}
+
+.blog__video--description p {
+    font-size: 13px;
+    color: #808080;
+    font-weight: normal;
+}
+
+
+.related__container {
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 32px;
+}
+
+.related__product--box {
+    width: 312px;
+    height: 407px;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.related__product--box:hover {
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px #20b52652;
+}
+
+.related__apple--dicount {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.related__apple--dicount span {
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #EA4B48;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+}
+
+.related__apple--dicount button {
+    visibility: hidden;
+}
+
+.related__product--box:hover .related__apple--dicount button {
+    visibility: visible;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+}
+
+.related__apple--box {
+    background-image: url("chinese-cabbage-image/apple-img.png");
+}
+
+.related__product--text {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.related__product--text button {
+    background-color: #fff;
+    border: 0;
+}
+
+.product__box--green-bag {
+    display: none;
+}
+
+.related__product--box:hover .product__box--white-bag {
+    display: none;
+}
+
+.related__product--box:hover .product__box--green-bag {
+    display: inline;
+}
+
+.related__box--description h6 {
+    color: #4D4D4D;
+    font-weight: 400;
+}
+
+.apple__box--price {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.apple__box--price span {
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.related__box--start-buttons {
+    justify-content: flex-end;
+}
+
+.product__price {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.related__cauliflower--box {
+    background-image: url("chinese-cabbage-image/couliflower-img.png");
+}
+
+.related__capsicum--box {
+    background-image: url("chinese-cabbage-image/capsicum-img.png");
+}
+
+.related__finger--box {
+    background-image: url("chinese-cabbage-image/finger-img.png");
+}
+
+.related__product {
+    gap: 24px;
+    justify-content: center;
+}  
+
+
+.end__section__container {
+    justify-content: center;
+    align-items: center;
+    height: 162px;
+    gap: 55px;
+    background-color: #F7F7F7;
+}
+
+.end__section__box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.end__section__p {
+    gap: 4px;
+    width: 448px;
+}
+
+.end__section__p p {
+    color: #999999;
+}
+
+.end__section__input {
+    padding: 14px 24px;
+    border-radius: 46px;
+    width: 444px;
+    border: 1px solid  #E6E6E6;
+}
+
+.end__section__input + input {
+    padding: 14px 40px;
+    border-radius: 46px;
+    background-color: #00B207;
+    color: #fff;
+    border: 0;
+    position: relative;
+    right: 50px;
+}
+
+.social__buttons > button {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: unset;
+}
+
+.social__buttons > button:focus {
+    background-color: #00B207;
+    border-radius: 50%;
+}
+
+.social__buttons {
+    gap: 8px;
+}
+
+
+
+
+/* footer */
+
+.main__footer__container {
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #1A1A1A;
+}
+
+.main__footer__container > div {
+    padding-top: 60px;
+    gap: 60px;
+}
+
+.footer__logo__container, .footer__logo__text  {
+    gap: 120px;
+}
+
+.footer__logo {
+    gap: 16px;
+    width: 336px;
+    color: #808080;
+}
+
+.footer__logo img {
+    width: 184px;
+}
+
+.footer__logo > div p {
+    color: #FFFFFF;
+    padding: 6px 0;
+    border-bottom: 1px solid #20B526;
+}
+
+.footer__logo div {
+    gap: 16px;
+}
+
+.footer__logo__text a {
+    color: #999999;
+    text-decoration: unset;
+    font-size: 14px;
+}
+
+.footer__logo__text > div {
+    gap: 16px;
+}
+
+.footer__logo__text ul {
+    gap: 4px;
+    list-style: none;
+}
+
+.footer__logo__text > div > h6 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer__logo__text a:hover, .footer__logo__text a:focus {
+    color: #fff;
+}
+
+.copyright__box {
+    color: #808080;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-top: 1px solid #333;
+}
+
+.copyright__box > div {
+    gap: 8px;
+}

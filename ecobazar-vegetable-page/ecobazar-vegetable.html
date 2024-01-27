@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="icon" href="ecobazar-vegetable-image/favicon-novatori-100x100.png" />
+        <link rel="stylesheet" href="ecobazar-vegetable.css" />
+        <title>ecobazar vegetable</title>
+    </head>
+    <body>
+        <header>
+            <div class="flex__row start__header__container">
+                <div class="flex__row box-width start__header__box">
+                    <div class="flex__row header__box__location">
+                        <img src="ecobazar-vegetable-image/location-icon.png" alt="location icon" />
+                        <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p> 
+                    </div>
+                    <div class="flex__row">
+                        <div>
+                            <span>Eng</span>
+                            <img src="ecobazar-vegetable-image/or-icon.png" alt="or icon" />
+                        </div>
+                        <div>
+                            <span>USD</span>
+                            <img src="ecobazar-vegetable-image/or-icon.png" alt="or icon" />
+                        </div>
+                        <span>|</span>
+                        <p>Sign In / Sign Up</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex__row middle__header__container">
+                <div class="flex__row box-width">
+                    <img src="ecobazar-vegetable-image/ecobazar-logo.png" alt="ecobazar logo" />
+                    <form class="flex__row middle__box__form">
+                        <label>
+                            <img src="ecobazar-vegetable-image/search-icon.png" alt="search icon" />
+                        </label>
+                        <input type="text" placeholder="Search" class="header__input__text"/>
+                        <input type="submit" value="Search" />
+                    </form>
+                    <div class="flex__row">
+                        <img src="ecobazar-vegetable-image/heart-icon.png" alt="heart icon" />
+                        <span>|</span>
+                        <div class="flex__row bag__with__two">
+                            <img src="ecobazar-vegetable-image/bag-with-2.png" alt="bag with 2" />
+                            <div class="flex__colamn">
+                                <span>Shopping cart:</span>
+                                <p>$57.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav__container flex__row">
+                <div class="box-width flex__row">
+                    <ul class="nav__bar flex__row">
+                        <li><a href="#">Home &or;</a></li>
+                        <li><a href="#">Shop &or;</a></li>
+                        <li><a href="#">Pages &or;</a></li>
+                        <li><a href="#">Blog &or;</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+    
+                    <div class="nav__tel flex__row">
+                        <img src="ecobazar-vegetable-image/tel-icon.svg" alt="tel icon" />
+                        <span>(219) 555-0114</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <article>
+                <div class="baner__container flex__row">
+                    <div class="flex__row box-width">
+                        <img src="ecobazar-vegetable-image/home-icon.svg" alt="homem icon" />
+                        <img src="ecobazar-vegetable-image/right-arrow.svg" alt="right-arrow" />
+                        <a href="#">Categories</a>
+                        <img src="ecobazar-vegetable-image/right-arrow.svg" alt="right-arrow" />
+                        <a href="#" class="baner__a">Vegetables</a>
+                    </div>
+                </div>
+            
+                <div class="flex__row filter__container">
+                    <div class="box-width flex__row main__article__div">
+                        <div class="asaid__bar__container flex__colamn">
+                            <button class="filter__box flex__row">
+                                <span> Filter</span> <img src="ecobazar-vegetable-image/filter-img.svg" alt="filter icon" >
+                            </button>
+
+                            <div class="radios__container flex__colamn ">
+                                <span class="categories__span flex__row">All Categories<img src="ecobazar-vegetable-image/top-arrow.svg" alt="top arrow" /></span>
+                                <div class="flex__colamn radios__div">
+                                    <div>
+                                        <input type="radio" id="fruit" name="categories" />
+                                        <label for="fruit">Fresh Fruit (25)<span> (134)</span></label>
+                                    </div>
+                                        
+                                    <div>
+                                        <input type="radio" id="vegetables" name="categories" />
+                                        <label for="vegetables">Vegetables <span> (150)</span></label>
+                                    </div>    
+                                        
+                                    <div>
+                                        <input type="radio" id="cooking" name="categories" />
+                                        <label for="cooking">Cooking <span> (54)</span></label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" id="snacks" name="categories" />
+                                        <label for="snacks">Snacks <span> (47)</span></label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" id="beverages" name="categories" />
+                                        <label for="beverages">Beverages <span> (43)</span></label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" id="beauty" name="categories" />
+                                        <label for="beauty">Beauty & Health <span> (38)</span></label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" id="bread" name="categories" />
+                                        <label for="bread">Bread & Bakery <span> (15)</span></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex__colamn range__container categories__container">
+                                <div class="flex__row categories__span">
+                                    <span>Price</span>
+                                    <img src="ecobazar-vegetable-image/top-arrow.svg" alt="top arrow" />
+                                </div>
+                                <input type="range" />
+                                <p><span>Price:</span> 50 — 1,500</p>
+                            </div>
+
+                            <div class="flex__colamn main__checkbox__container categories__container">
+                                <span class="flex__row categories__span">Rating<img src="ecobazar-vegetable-image/top-arrow.svg" alt="top arrow" /></span>
+                                <div class="flex__colamn checkbox__container">
+                                    <div class="flex__row">
+                                        <input id="five-stars" type="checkbox" name="checkboxs" />
+                                        <label for="five-stars" class="checkbox__label"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"> 5.0</label>
+                                    </div>
+                                    <div class="flex__row">
+                                        <input id="four-stars" type="checkbox" name="checkboxs" />
+                                        <label for="four-stars" class="checkbox__label"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />  4.0 & up</label>
+                                    </div>
+                                    <div class="flex__row">
+                                        <input id="three-stars" type="checkbox" name="checkboxs" />
+                                        <label for="three-stars" class="checkbox__label"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />  3.0 & up</label>
+                                    </div>
+                                    <div class="flex__row">
+                                        <input id="two-stars" type="checkbox" name="checkboxs" />
+                                        <label for="two-stars" class="checkbox__label"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />  2.0 & up</label>
+                                    </div>
+                                    <div class="flex__row">
+                                        <input id="one-star" type="checkbox" name="checkboxs" />
+                                        <label for="one-star" class="checkbox__label"><img src="ecobazar-vegetable-image/star-img.svg" alt="star"><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />   1.0 & up</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex__colamn tag__container categories__container">
+                                <span class="flex__row categories__span">Popular Tag<img src="ecobazar-vegetable-image/top-arrow.svg" alt="top arrow" /></span>
+                                <div class="flex__row tag__buttons">
+                                    <button class="tag__button">Healthy</button>
+                                    <button class="tag__button">Low fat</button>
+                                    <button class="tag__button">Vegetarian</button>
+                                    <button class="tag__button">Kid foods</button>
+                                    <button class="tag__button">Vitamins</button>
+                                    <button class="tag__button">Bread</button>
+                                    <button class="tag__button">Meat</button>
+                                    <button class="tag__button">Snacks</button>
+                                    <button class="tag__button">Tiffin</button>
+                                    <button class="tag__button">Launch</button>
+                                    <button class="tag__button">Dinner</button>
+                                    <button class="tag__button">Breackfast</button>
+                                    <button class="tag__button">Fruit</button>
+                                </div>
+                            </div>
+
+                            <img class="discount__baner" src="ecobazar-vegetable-image/discount-baner.svg" alt="discount baner" />
+
+                            <div class="sale__product__container flex__colamn">
+                                <span class="flex__row categories__span">Sale Products</span>
+                                <div class="sale__product__boxes flex__colamn">
+                                    
+                                    <div class="sale__product__box flex__row">
+                                        <img src="ecobazar-vegetable-image/capsicum-img.svg" alt="capsicum" />
+                                        <div class="flex__colamn">
+                                            <div>
+                                                <p>Red Capsicum</p>
+                                                <span class="flex__row sale__product__span">$32.00<span> $20.99</span></span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sale__product__box flex__row">
+                                        <img src="ecobazar-vegetable-image/cabbage-img.png" alt="cabbage" />
+                                        <div class="flex__colamn">
+                                            <div>
+                                                <p>Chanise Cabbage</p>
+                                                <span class="flex__row sale__product__span">$24.00<span> $20.99</span></span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sale__product__box flex__row">
+                                        <img src="ecobazar-vegetable-image/green-capsicum.png" alt="green capsicum" />
+                                        <div class="flex__colamn">
+                                            <div>
+                                                <p>Green Capsicum</p>
+                                                <span class="flex__row sale__product__span">$32.00<span> $20.99</span></span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/star-img.svg" alt="star" /><img src="ecobazar-vegetable-image/white-star-img.svg" alt="white star" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex__colamn main__offers__container">
+                            <div class="flex__row sort__box">
+                                <div class="flex__row">
+                                    <p>Sort by:</p>
+                                    <div class="flex__row latest__box">
+                                        <input type="text" value="Latest" class="latest__box__input"/>
+                                        <img src="ecobazar-vegetable-image/bottom-arrow.png" alt="top arrow" />
+                                    </div>
+                                </div>
+                                <p>52 <span>Results Found</span></p>
+                            </div>
+                            <div class="flex__colamn offers__boxes">
+                                <div class="flex__row vegetable__offers__container">
+                                    <div class="big__potatoes flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Big Potatoes</a></p>
+                                                <span>$20.00</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="cabbage__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="../chinese-cabbage-page/chinese-cabbage.html">Chanise Cabbage</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="finger__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <span class="stock__span">Out of Stock</span>
+                                            <div>
+                                                <div class="flex__colamn">
+                                                    <p class="offer__p"><a href="#">Ladies Finger</a></p>
+                                                    <span>$14.99 <span>$20.99</span></span>
+                                                </div>
+                                                <div>
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="eggplant__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Eggplant</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="cauliflower__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Fresh Cauliflower</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="apple__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Green Apple</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="green__capsicum__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Green Capsicum</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="green__chili__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Green Chili</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="cucumber__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <span class=sale__span>Sale 50%</span>
+                                            <div>
+                                                <div class="flex__colamn">
+                                                    <p class="offer__p"><a href="#">Green Cucumber</a></p>
+                                                    <span>$14.99 <span>$20.99</span></span>
+                                                </div>
+                                                <div>
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                    <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="littuce__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Green Littuce</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="ladies__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Ladies Finger</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="red__capsicum__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Red Capsicum</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="red__chili__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Red Chili</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="tomato__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Red Tomato</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="mango__box flex__row offer__box">
+                                        <div class="flex__colamn">
+                                            <div class="flex__colamn">
+                                                <p class="offer__p"><a href="#">Fresh Mango</a></p>
+                                                <span>$14.99</span>
+                                            </div>
+                                            <div>
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/star-img.svg" alt="star" />
+                                                <img src="ecobazar-vegetable-image/white-star-img.svg" alt="star" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex__row scroll__bar">
+                                    
+                                    <button class="scroll__bar__start green__button">1</button>
+                                    <button class="it__button it-gt__button">&lt;</button> 
+                                    <button class="green__button">2</button>
+                                    <button class="green__button">3</button>
+                                    <button class="green__button">4</button>
+                                    <button class="green__button">5</button>
+                                    <button class="elipsis__button">...</button>
+                                    <button class="green__button scroll__bar__end">21</button>
+                                    <button class="it-gt__button">&gt;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <section>
+                <div class="flex__row end__section__container">
+                    <div class="flex__row box-width end__section__box">
+                        <div class="end__section__p flex__colamn">
+                            <h4>Subcribe our Newsletter</h4>
+                            <p>Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna.</p>
+                        </div>
+                        <div class="flex__row">
+                            <form>
+                                <input type="text" placeholder="Your email address" class="end__section__input" />
+                                <input type="button" value="Subscribe" />
+                            </form>
+                            <div class="social__buttons flex__row">
+                                <button>
+                                    <img src="ecobazar-vegetable-image/facebook-icon.svg" alt="facebook" />
+                                </button>
+                                <button>
+                                    <img src="ecobazar-vegetable-image/twiter-img.svg" alt="twiter" />
+                                </button>
+                                <button>
+                                    <img src="ecobazar-vegetable-image/pinterest-icon.svg" alt="pinterest" />
+                                </button>
+                                <button>
+                                    <img src="ecobazar-vegetable-image/instagram-icon.svg" alt="instagram" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex__row main__footer__container">
+                <div class="flex__colamn box-width">
+                    <div class="footer__logo__container flex__row">
+                        <div class="flex__colamn footer__logo">
+                            <img src="ecobazar-vegetable-image/footer-logo.svg" alt="footer logo" />
+                            <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+                            <div class="flex__row">
+                                <p>(219) 555-0114</p>
+                                <span>or</span>
+                                <p>Proxy@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex__row footer__logo__text">
+                            <div class="flex__colamn">
+                                <a href="#">My Account</a>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Order History</a></li>
+                                    <li><a href="#">Shoping Cart</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex__colamn">
+                                <a href="#">Helps</a>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Faqs</a></li>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="flex__colamn">
+                                <a href="#">Proxy</a>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Track Order</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="flex__colamn">
+                                <a href="#">Categories</a>
+                                <ul class="flex__colamn ">
+                                    <li><a href="#">Fruit & Vegetables</a></li>
+                                    <li><a href="#">Meat & Fish</a></li>
+                                    <li><a href="#">Bread & Bakery</a></li>
+                                    <li><a href="#">Beauty & Health</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex__row copyright__box">
+                        <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                        <div class="flex__row">
+                            <img src="ecobazar-vegetable-image/pay-icon.svg" alt="pay cart" />
+                            <img src="ecobazar-vegetable-image/visa-img.svg" alt="visa cart" />
+                            <img src="ecobazar-vegetable-image/discover-img.svg" alt="discover cart" />
+                            <img src="ecobazar-vegetable-image/mastercard-ims.svg" alt="mastercard cart" />
+                            <img src="ecobazar-vegetable-image/secure-img.svg" alt="secure-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
